@@ -1,0 +1,383 @@
+ /* Webpage-1 :Appointment  */
+ /* Navbar & Hero Section */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .bgimg{
+    background-image: url("assets/background.png");
+    padding-bottom: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .flex1{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family: 'Belanosima', sans-serif;
+    padding-top: 10px;
+ }
+ .logo{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 20px;
+ }
+ .flex2{
+    display: flex;
+ }
+ .navelem{
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: beige;
+ }
+ .navelem:hover{
+    background-color: #03C6C7;
+    color: white;
+ }
+ .quote{
+    background-color:#03C6C7;
+    padding: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 7px;
+ }
+ .flex3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.one{
+    margin-top: 60px;
+}
+.one h1{
+    color: white;
+    font-family: 'Belanosima', sans-serif; 
+    font-size: 60px;
+}
+.flex3 div h1{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.bd{
+    border: 2px solid black;
+    height: 60px;
+}
+.oflex1{
+    display: flex;
+    margin-top: 30px;
+}
+.oflex1 div{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.oflex2{
+    display: flex;
+    margin-top: 30px;
+}
+.oflex2 div{
+    margin-top: 20px;
+}
+.gs{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Belanosima', sans-serif;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    background-color:#03C6C7;
+    color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+}
+.lm{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Belanosima', sans-serif;
+    border: 2px solid white;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 7px;
+}
+.lm:hover{
+    background-color: white;
+    color: black;
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.appwhite{
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.appwhite h2{
+    font-size: 30px;
+    font-family: 'Belanosima', sans-serif;
+}
+.appwhite div form label{
+    font-family: 'Montserrat', sans-serif;
+}
+.appwhite div form input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+#depart{
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
+#tm{
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+.app{
+    background-color:#03C6C7;
+    padding: 7px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Belanosima', sans-serif;
+}
+/* Webpage-2 : Leading Medicine */
+.center{
+    text-align: center;
+    padding-top: 30px;
+}
+.head{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 40px;
+}
+.para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.flex4{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.flex5{
+    display: flex;
+    background-color:#5DA3FA ;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+.flex5 h2{
+    font-family: 'Belanosima', sans-serif;
+    margin-left: 10px;
+}
+.para2{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    color: #5d5959;
+}
+.lm2{
+    margin-top: 10px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+    border: 2px solid grey;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+.lm2:hover{
+    background-color: black;
+    color: white;
+}
+.sky{
+    background-color: #daebf3;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.sky:hover{
+    transform: scale(1.1);
+}
+/* Webpage:3 Review */
+.flexs{
+    display: flex;
+}
+/* Webpage:4 FAQs */
+.flex8{
+    display: flex;
+    justify-content:space-around;
+    padding: 40px;
+}
+.flex9{
+    display: flex;
+}
+.flex9 div i{
+    margin-right: 5px;
+}
+.flex9 div h3{
+    font-family: 'Belanosima', sans-serif;
+}
+.flex9 div p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    color: #5d5959;
+}
+/* Webpage:5 Pricing */
+.flex10{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.flex11{
+    display: flex;
+}
+.flex11{
+    margin: 5px;
+    font-weight: bold;
+    color: #059edb;
+    font-size: 30px;
+    font-family: 'Belanosima', sans-serif;
+}
+.dollar{
+    margin-left: 5px;
+}
+.flex12{
+    display: flex;
+}
+.flex12 div{
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+
+}
+.blue{
+    border: 2px solid #4795b4;
+    margin: 10px;
+    padding: 70px;
+    transition: transform 0.3s;
+    border-radius: 5px;
+}
+.blue:hover{
+    background-color: #120E43;
+    color: white;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.blue h2{
+    font-family: 'Belanosima', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.blue p{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.free{
+    background-color:#1B98F5;
+    padding: 7px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Belanosima', sans-serif;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+ /* Webpage-6:Get in Touch */
+ .dblue{
+    background-color: #120E43;
+    color: aliceblue;
+ }
+ .flex13{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+ }
+ .flex14{
+    display: flex;
+ }
+ .four h1{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 60px;
+}
+.four p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+.flex13 div input{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.flex13 div span button{
+    font-family: 'Belanosima', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #1B98F5;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+/* Webpage-7:Footer */
+.flex15{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.flex15 div h2{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+}
+.flex15 div p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.flex15 div p:hover{
+    background-color: #120E43;
+    color: white;
+}
+.flex16{
+    display: flex;
+    padding: 5px;
+}
+.flex16 i{
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
