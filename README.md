@@ -1,4 +1,6 @@
 # Milestone-Repo
+live link: 
+e-guru: https://egurulandingpage.netlify.app/
 Milestone-Repo
 Project 1: E-Guru | HTML & CSS
 Description: I created the E-Guru project using HTML and CSS. E-Guru is an educational website that provides resources and tutorials on various subjects to help students and learners improve their knowledge.
