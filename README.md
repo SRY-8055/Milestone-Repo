@@ -1,6 +1,10 @@
 # Milestone-Repo
 live link: 
 e-guru: https://egurulandingpage.netlify.app/
+hospital: https://hospitalview.netlify.app/
+bikes: https://futuristicbike.netlify.app/
+Pixelab: https://pixelabs.netlify.app/
+nfts: https://nftslg.netlify.app/
 Milestone-Repo
 Project 1: E-Guru | HTML & CSS
 Description: I created the E-Guru project using HTML and CSS. E-Guru is an educational website that provides resources and tutorials on various subjects to help students and learners improve their knowledge.
